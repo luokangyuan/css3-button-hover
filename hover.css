@@ -1,0 +1,192 @@
+.main{
+    padding: 20px 20px;
+}
+.main a{
+    margin-right: 40px;
+}
+[class ^= 'mj']{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    padding: 0 40px;
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
+    transition-property: all;
+    transition-duration: .3s;
+    color: #fff;
+}
+.mj-Gradual-one-color{
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    box-shadow: gray 3px 3px 3px;
+    border-radius: 200px;
+}
+.mj-Gradual-one-color:hover {
+    box-shadow: gray 10px 10px 10px;
+    opacity: .9;
+}
+.mj-Gradual-two-color{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    border-radius: 200px;
+    
+}
+.mj-Gradual-two-color:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.mj-Gradual-three-color{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-radius: 200px;
+    
+}
+.mj-Gradual-three-color:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.mj-Gradual-four-color{
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    border-radius: 200px;
+    
+}
+.mj-Gradual-four-color:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.mj-Gradual-five-color{
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    border-radius: 200px;
+    
+}
+.mj-Gradual-five-color:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.mj-Gradual-six-color{
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    border-radius: 200px;
+    
+}
+.mj-Gradual-six-color:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.mj-Gradual-seven-color{
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    border-radius: 200px;
+    
+}
+.mj-Gradual-seven-color:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+/* ==========================矩形单色按钮================================================================= */
+.mj-button-one-color{
+   background: #FFCC00;
+   transition: .8s;
+}
+
+.mj-button-one-color:hover{
+    border-bottom: 3px solid #4CD964;
+}
+.mj-button-two-color{
+    background: #4CD964;
+    transition: .5s;
+}
+.mj-button-two-color:hover{
+   border-radius: 200px;
+}
+.mj-button-three-color{
+    background: #FF3B30;
+    transition: .8s;
+}
+.mj-button-three-color:hover{
+    transform: translateY(-8px);
+}
+.mj-button-four-color{
+    background: #007AFF;
+    transition: .8s;
+}
+.mj-button-four-color:hover{
+    transform: translateX(-8px);
+    
+}
+.mj-button-five-color{
+    background: #1F1F21;
+    transition: .8s;
+}
+.mj-button-five-color:hover{
+    transform: translate(8px,-8px);  
+}
+.mj-button-six-color{
+    background: #5856D6;
+    transition: .8s;
+}
+.mj-button-six-color:hover{
+    transform: skewY(-4deg) 
+}
+.mj-button-seven-color{
+    background: #EF4DB6;
+    transition: .8s;
+}
+.mj-button-seven-color:hover{
+    transform: scale(1.2, 1.2)
+}
+/* ============================圆角单色按钮====================== */
+.mj-border-button-one-color{
+    background: #FFCC00;
+    transition: .8s;
+    border-radius: 200px;
+ }
+ 
+ .mj-border-button-one-color:hover{
+     transform: rotate3d(1,1,1,360deg)
+ }
+ .mj-border-button-two-color{
+     background: #4CD964;
+     transition: 1.2s;
+     border-radius: 200px;
+ }
+ .mj-border-button-two-color:hover{
+   transform: rotate(360deg);
+ }
+ .mj-border-button-three-color{
+     background: #FF3B30;
+     transition: .8s;
+     border-radius: 200px;
+ }
+ .mj-border-button-three-color:hover{
+     transform: translateY(-8px);
+ }
+ .mj-border-button-four-color{
+     background: #007AFF;
+     transition: .8s;
+     border-radius: 200px;
+ }
+ .mj-border-button-four-color:hover{
+     transform: translateX(-8px);
+     
+ }
+ .mj-border-button-five-color{
+     background: #1F1F21;
+     transition: .8s;
+     border-radius: 200px;
+ }
+ .mj-border-button-five-color:hover{
+     transform: translate(8px,-8px);  
+ }
+ .mj-border-button-six-color{
+     background: #5856D6;
+     transition: .8s;
+     border-radius: 200px;
+ }
+ .mj-border-button-six-color:hover{
+     transform: skewY(-4deg) 
+ }
+ .mj-border-button-seven-color{
+     background: #EF4DB6;
+     transition: .8s;
+     border-radius: 200px;
+ }
+ .mj-border-button-seven-color:hover{
+     transform: scale(1.2, 1.2)
+ }
