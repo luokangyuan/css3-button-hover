@@ -42,10 +42,11 @@
 .mj-Gradual-three-color{
     background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     border-radius: 200px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     
 }
 .mj-Gradual-three-color:hover{
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    opacity: 0.8;
 }
 .mj-Gradual-four-color{
     background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
@@ -189,4 +190,20 @@
  }
  .mj-border-button-seven-color:hover{
      transform: scale(1.2, 1.2)
+ }
+ /* ========================================================= */
+ .mj-Gradual-border-one-color{
+     color: #000;
+     border-radius: 200px;
+     border: 2px solid #37ecba;
+ }
+ .mj-Gradual-border-two-color{
+     color: #000;
+     border-radius: 200px;
+     border: 2px solid #6dd5ed;
+     
+}
+ .mj-Gradual-border-two-color:hover{
+     background: #6dd5ed;
+     color: #fff;
  }
