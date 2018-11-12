@@ -43,10 +43,12 @@
     background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     border-radius: 200px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    transition: .7s;
     
 }
 .mj-Gradual-three-color:hover{
     opacity: 0.8;
+    transform: translateY(-10px)
 }
 .mj-Gradual-four-color{
     background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
@@ -207,3 +209,85 @@
      background: #6dd5ed;
      color: #fff;
  }
+ .mj-Gradual-border-three-color{
+    color: #000;
+    border-radius: 200px;
+    border: 2px solid #ff7f82;
+    
+}
+.mj-Gradual-border-three-color:hover{
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+.mj-Gradual-border-four-color{
+    color: #000;
+    border-radius: 200px;
+    border: 2px solid #32CCBC;
+    
+}
+.mj-Gradual-border-four-color:hover{
+    animation: move 5s infinite;
+    animation-duration: ease;
+}
+@keyframes move{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+ /*=============3D单色按钮 ================= */
+ .mj-Gradual-3D-one-color{
+    background-color: #27ae60;
+    border: none;
+    border-radius:5px;
+    box-shadow: 0 9px #95a5a6;
+ }
+ .mj-Gradual-3D-one-color:hover{
+    background-color: #2ecc71;
+ }
+ .mj-Gradual-3D-one-color:active {
+    background-color: #2ecc71;
+    box-shadow: 0 5px #95a5a6;
+    transform: translateY(10px);
+}
+.mj-Gradual-3D-two-color{
+    background-color: rgb(255, 59, 48);
+    border: none;
+    border-radius:5px;
+    box-shadow: 0 9px #95a5a6;
+ }
+ .mj-Gradual-3D-two-color:hover{
+    background-color:  rgb(255, 59, 48, .8);
+ }
+ .mj-Gradual-3D-two-color span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .mj-Gradual-3D-two-color span:hover {
+    padding-right: 22px;
+  }
+ .mj-Gradual-3D-two-color span:after{
+    content: '»';
+    position: absolute;
+    font-weight: 400;
+    font-size: 28px;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.mj-Gradual-3D-two-color:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+ .mj-Gradual-3D-two-color:active {
+    background-color:rgb(255, 59, 48, .8);
+    box-shadow: 0 5px #95a5a6;
+    transform: translateY(10px);
+}
+
